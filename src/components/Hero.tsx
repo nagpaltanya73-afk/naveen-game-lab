@@ -53,7 +53,7 @@ export const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
-              variant="hero" 
+              variant="sunset" 
               size="lg" 
               className="group"
             >
@@ -63,7 +63,7 @@ export const Hero = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="hover:bg-card hover:shadow-card"
+              className="hover:bg-card hover:shadow-electric border-primary/30 hover:border-primary"
             >
               <Code className="mr-2 h-5 w-5" />
               View Portfolio
