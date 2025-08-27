@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--success))',
 					foreground: 'hsl(var(--success-foreground))'
 				},
+				pink: {
+					DEFAULT: 'hsl(var(--pink))',
+					foreground: 'hsl(var(--pink-foreground))'
+				},
+				blue: {
+					DEFAULT: 'hsl(var(--blue))',
+					foreground: 'hsl(var(--blue-foreground))'
+				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -113,12 +121,17 @@ export default {
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
 				'gradient-card': 'var(--gradient-card)',
-				'gradient-gaming': 'var(--gradient-gaming)'
+				'gradient-gaming': 'var(--gradient-gaming)',
+				'gradient-electric': 'var(--gradient-electric)',
+				'gradient-sunset': 'var(--gradient-sunset)',
+				'gradient-ocean': 'var(--gradient-ocean)'
 			},
 			boxShadow: {
 				'gaming': 'var(--shadow-gaming)',
 				'card': 'var(--shadow-card)',
-				'glow': 'var(--shadow-glow)'
+				'glow': 'var(--shadow-glow)',
+				'electric': 'var(--shadow-electric)',
+				'neon': 'var(--shadow-neon)'
 			}
 		}
 	},

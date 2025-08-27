@@ -61,7 +61,7 @@ export const Games = () => {
           {categories.map((category) => (
             <Button
               key={category}
-              variant={category === "All" ? "gaming" : "outline"}
+              variant={category === "All" ? "electric" : "outline"}
               className="rounded-full"
             >
               {category}
@@ -104,7 +104,7 @@ export const Games = () => {
                       <Users className="h-4 w-4 mr-1" />
                       {game.players} players
                     </div>
-                    <Button variant="gaming" className="group">
+                    <Button variant="ocean" className="group">
                       <Play className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                       Play Now
                     </Button>
@@ -129,7 +129,7 @@ export const Games = () => {
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
                     <Button 
-                      variant="hero" 
+                      variant="sunset" 
                       className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform scale-90 group-hover:scale-100"
                     >
                       <Play className="mr-2 h-4 w-4" />
