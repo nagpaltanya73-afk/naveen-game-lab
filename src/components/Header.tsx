@@ -37,7 +37,7 @@ export const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="electric" className="animate-pulse-glow">
+            <Button variant="gaming" className="animate-pulse-glow">
               Play Now!
             </Button>
           </div>

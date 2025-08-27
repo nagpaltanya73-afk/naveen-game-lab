@@ -113,7 +113,7 @@ export const Contact = () => {
                     />
                   </div>
                   
-                  <Button type="submit" variant="electric" size="lg" className="w-full">
+                  <Button type="submit" variant="gaming" size="lg" className="w-full">
                     <Send className="mr-2 h-4 w-4" />
                     Send Message
                   </Button>
@@ -173,25 +173,25 @@ export const Contact = () => {
               {/* Social Links */}
               <div>
                 <h3 className="text-xl font-bold mb-4">Let's Connect Online</h3>
-              <div className="flex space-x-4">
-                <Button variant="outline" size="lg" className="flex-1 group hover:bg-card hover:shadow-electric border-blue/30 hover:border-blue">
-                  <Github className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                  GitHub
-                </Button>
-                <Button variant="outline" size="lg" className="flex-1 group hover:bg-card hover:shadow-electric border-pink/30 hover:border-pink">
-                  <Twitter className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                  Twitter
-                </Button>
+                <div className="flex space-x-4">
+                  <Button variant="outline" size="lg" className="flex-1 group hover:bg-card hover:shadow-card">
+                    <Github className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                    GitHub
+                  </Button>
+                  <Button variant="outline" size="lg" className="flex-1 group hover:bg-card hover:shadow-card">
+                    <Twitter className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
+                    Twitter
+                  </Button>
+                </div>
               </div>
-            </div>
 
-            {/* Quick Info */}
-            <Card className="bg-gradient-electric text-white shadow-electric">
-              <CardContent className="p-6">
-                <h4 className="font-bold mb-2 flex items-center">
-                  <MessageCircle className="mr-2 h-5 w-5" />
-                  Quick Response Guarantee
-                </h4>
+              {/* Quick Info */}
+              <Card className="bg-gradient-gaming text-white">
+                <CardContent className="p-6">
+                  <h4 className="font-bold mb-2 flex items-center">
+                    <MessageCircle className="mr-2 h-5 w-5" />
+                    Quick Response Guarantee
+                  </h4>
                   <p className="text-white/90 text-sm">
                     I'm always excited to discuss new projects, collaborations, or answer 
                     questions about game development. Don't hesitate to reach out!
