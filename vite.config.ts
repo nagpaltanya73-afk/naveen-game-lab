@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "/",   // 👈 Always root, works for vikram.fit
+  base: "/",   // 👈 Always root, works for navin.ink
   plugins: [
     react(),
     mode === "development" && componentTagger(),
